@@ -5,8 +5,9 @@
 
 
 ## 使用说明
-### 
-+ python
+### 安装包
++ python>=3.6
++ pytorch>=1.5.0
 + fairseq
 
 ### 预训练模型下载
