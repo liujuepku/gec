@@ -1,7 +1,7 @@
-CUDA_VISIBLE_DEVICES=3 fairseq-train s2t_nlpcc_ubart \
+CUDA_VISIBLE_DEVICES=0 fairseq-train dataset \
 	--arch bart_base \
-	--restore-file /home/liujue/w/fairseq39/bart-base-chinese/fairseq_model.pt \
-	--task translation_bert_gec \
+	--restore-file checkpoint_best.pt \
+	--task translation \
 	--criterion my_label_smoothed_cross_entropy \
 	--label-smoothing 0.1 \
 	--dropout 0.1 \
