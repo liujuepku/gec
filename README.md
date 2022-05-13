@@ -22,6 +22,9 @@
 + pytorch>=1.5.0
 + fairseq
 
+### 预训练模型下载
+[北大网盘下载](https://disk.pku.edu.cn:443/link/262208F238A67FC21C7E394D53D2EEE3)
+
 ### 预训练模型的使用
 ```
 # 数据集预处理
