@@ -22,9 +22,9 @@
 + pytorch>=1.5.0
 + fairseq
 
-### 预训练模型下载
+### 预训练模型的使用
 ```
-# 数据预处理
+# 数据集预处理
 bash preprocess.sh
 
 # 在数据集上finetune
