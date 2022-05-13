@@ -8,11 +8,11 @@
 
 <img src="https://github.com/liujuepku/gec/blob/main/embedding2.png" width="50%" height="50%"></img>
 
-模型的效果：
+基于预训练的中文语法纠错模型在NLPCC-2018上的准确率、召回率、F0.5值如下表所示：
 
 | 模型 |  准确率  | 召回率  | F0.5值  |
 |:-:|---|---|---|
-|  基于预训练的中文语法纠错模型 |   |   |   |
+|  基于预训练的中文语法纠错模型 | 44.71  | 23.58  | 37.92  |
 
 
 
@@ -23,3 +23,13 @@
 + fairseq
 
 ### 预训练模型下载
+```
+# 数据预处理
+bash preprocess.sh
+
+# 在数据集上finetune
+bash train.sh
+
+# 生成目标句子
+bash generate.sh
+```
